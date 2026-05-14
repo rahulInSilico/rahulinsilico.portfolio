@@ -38,6 +38,7 @@ a {
 .app-container {
   width: 100%;
   min-height: 100vh;
+  min-height: 100dvh;
   background: linear-gradient(to right, rgb(20, 20, 20) 0%, rgba(39, 39, 39, 0.742) 50%, rgba(100, 47, 0, 0.847) 75%, rgb(106, 106, 106) 100%);
   position: relative;
   display: flex;
@@ -59,6 +60,7 @@ a {
   width: 98%;
   max-width: 1400px;
   height: 95vh;
+  height: 95dvh;
   z-index: 2;
   position: relative;
   overflow: hidden;
@@ -134,7 +136,8 @@ a {
   overflow-y: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  z-index: 10; /* Above cinematic layer */
+  z-index: 10;
+  /* Above cinematic layer */
 }
 .content-scroll-area::-webkit-scrollbar {
   width: 6px;
